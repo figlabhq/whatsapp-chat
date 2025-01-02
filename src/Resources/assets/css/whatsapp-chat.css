@@ -1,0 +1,27 @@
+.whatsapp-chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-chat-widget.small img {
+    width: 100px;
+}
+
+.whatsapp-chat-widget.medium img {
+    width: 150px;
+}
+
+.whatsapp-chat-widget.large img {
+    width: 200px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.05);
+}

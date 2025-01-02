@@ -1,0 +1,34 @@
+{
+    "name": "figlab/whatsapp-chat",
+    "description": "WhatsApp chat integration for Bagisto",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "bagisto/bagisto": "^2.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Figlab\\WhatsAppChat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Figlab",
+            "email": "admin@figlab.io"
+        },
+        {
+            "name": "zrshishir",
+            "email": "zrshishir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Figlab\\WhatsAppChat\\Providers\\WhatsAppChatServiceProvider"
+            ]
+        }
+    }
+}
