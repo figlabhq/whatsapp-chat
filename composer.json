@@ -2,8 +2,13 @@
     "name": "figlab/whatsapp-chat",
     "description": "WhatsApp chat integration for Bagisto",
     "type": "library",
+    "scripts": {
+        "post-install-cmd": [
+            "@php artisan whatsapp:setup"
+        ]
+    },
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4|^8.0|^8.2",
         "bagisto/bagisto": "^2.2"
     },
     "license": "MIT",
